@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100%;
+ background-image: url(../images/wawd.jpg);
+ background-position: center;
+ height: 100vh;
+ background-size: cover;
+ position: relative;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+  width: 86%;
+  display: flex;
+  margin: 20px;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo{
+  width: 160px;
+  cursor: pointer;
+  margin-top: -3%;
+  margin-left: -2%;
+  color: #000;
+}
+ul{
+  margin: -5%;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+ul li a{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+  margin-top: -3px;
+  transition: .4s ease;
+}
+ul li a:hover{
+  color: black;
+}
+.info{
+  margin-left: 7%;
+  margin-top: 6%;
+}
+.info h1{
+  font-size: 65px;
+  color: white;
+}
+.info h3{
+  font-size: 20px;
+  color: azure;
+}
+.info span{
+  color: red;
+}
+.info a{
+  text-decoration: none;
+  color: aliceblue;
+  background: black;
+  padding: 10px 16px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.info a:hover{
+  background: blue;
+  background-color: #000;
+  color: azure;
+
+}
+#tourist{
+  padding: 80px 0;
+  color: black
+  
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+}
+.tourist-col-1{
+  flex-basis: 35%;
+
+}
+.tourist-col-1 img{
+  width: 50%;
+  margin: 5%;
+  padding: -5px;
+  border-radius: 10px;
+  align-items: flex-end;
+}
+.tourist-col-2{
+  flex-basis: 55%;
+}
+.tourist-col-2{
+  margin: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+.tourist-col-2 p{
+  font-size: 30;
+}
+#history{
+  padding: 1px 0;
+}
+.history-col-1{
+  flex-basis: 40%;
+}
+.history-col-1 img{
+  margin: 5%;
+  padding: -5px;
+  width: 50%;
+  height: 25%;
+  border-radius: 50px;
+  align-items: flex-end;
+}
+.history-col-2{
+  flex-basis: 55%;
+}
+.history-col-2{
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+.history-col-2 p{
+  font-size: 30;
+}

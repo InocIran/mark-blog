@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#tourist{
+    padding: 80px 0;
+    color: black
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+  }
+.tourist-col-1{
+    flex-basis: 35%;
+  }
+  .tourist-col-1 img{
+    width: 50%;
+    margin: 0%;
+    padding: -10px;
+    border-radius: 10px;
+    align-items: flex-end;
+  }
+  .tourist-col-2{
+    flex-basis: 55%;
+  }
+  .tourist-col-2{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }
+  .tourist-col-2 p{
+    font-size: 200%;
+  }
+  ul a{ 
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    margin-top: -3px;
+    transition: .4s ease;
+    padding: 10px;
+    
+    }
+  ul a:hover{
+      color: rgb(250, 247, 247);
+      background-color: black;
+ }
